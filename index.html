@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang=ko>
+	<head>
+		<meta charset="utf-8" />
+		<title>타이틀</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>	
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>	
+		<link rel="stylesheet" type="text/css" href="css/style.css">	
+		<link rel="stylesheet" type="text/css" href="css/utility.css">	
+		<link rel="stylesheet" type="text/css" href="css/font.css">	
+	</head>
+		
+	<body>
+		<!-- wrapper -->
+		<div id="wrapper">
+		
+			<!-- header -->
+			<div id="header">
+				<!-- video -->
+				<div class="video"><video src="images/mov/porsche-video_home.mp4" muted autoplay loop></video></div>
+				
+				<div id="gnb">
+					<!-- logo -->
+					<div class="logo"><h1><img src="images/logo.png"></h1></div>
+					
+					<!-- mainmenu -->
+					<div class="mainmenu">
+						<ul>
+							<li>718 Cayman</li>
+							<li>Carrera</li>
+							<li>Taycan</li>
+							<li>Panamera</li>
+							<li>Macan</li>
+							<li>Cayenne</li>
+						</ul><!-- <a href="#" class="dobtn">타이탄 자세히 보기</a> -->
+					</div>
+					<!-- mainmenu 끝 -->
+					
+					<!-- utility -->
+					<div class="tog">					
+						<div class="menu_bt">
+							<div class="ic_mm mm1"></div>
+							<div class="ic_mm mm2"></div>
+						</div>
+						<div class="menu_tog_section">
+							<ul class="tog_menu">
+								<li><a href="#">모델. <span class="togEng">model</span></a></li>
+								<li><a href="#">시승신청. <span class="togEng">test drive</span></a></li>
+								<li><a href="#">이벤트. <span class="togEng">event</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<!--  -->
+<script>
+     $(".tog .menu_bt").click(()=>{
+        $(".tog").toggleClass("active");
+    })
+/*
+Images = [...document.querySelectorAll('.main img')];
+
+let tl = gsap.timeline({});
+
+Images.forEach(img => {
+    gsap.from(img,1,{
+        autoAlpha:0,
+        scrollTrigger: {
+      trigger: img,
+     
+      start: "top +=1000", // when the top of the trigger hits the top of the viewport
+     
+    }
+    })
+});*/
+</script>
+				</div>
+			</div>
+			<!-- header 끝 -->
+			
+			<!-- container -->
+			<div id="container">
+				<div class="pdf">
+				
+<!-- 
+				<div class="pdf">
+				<div class="m-106-link__text">포르쉐 센터 찾기</div></a>
+				<a class="m-106-link gui-link" href="https://files.porsche.com/filestore/download/korea/ko/718_tire_overviews/default/a46c4536-d5ed-11ec-80ef-005056bbdc38/718-Tyre-Efficiency.pdf" aria-label="7 18 Tyre Efficiency (PDF;&#160;0.2 MB)"><span class="m-106-link__icon m-106-link__icon--catalog-download" aria-hidden="true"></span>
+				<div class="m-106-link__text">718 Tyre Efficiency (PDF;&#160;0.2 MB)</div></a>
+				<a class="m-106-link gui-link" href="https://files.porsche.com/filestore/download/korea/ko/model-series-718-downloads-fuelefficiency/default/7704885c-98c7-11ed-80f9-005056bbdc38/718-Fuel-Efficiency.pdf" aria-label="7 18 Fuel Efficiency (PDF;&#160;0.08 MB)"><span class="m-106-link__icon m-106-link__icon--catalog-download" aria-hidden="true"></span>
+				<div class="m-106-link__text">718 Fuel Efficiency (PDF;&#160;0.08 MB)</div></a></div> -->
+			
+			
+				
+				</div>
+			</div>
+			<!-- container 끝 -->
+			
+			<!-- footer -->
+			<div id="footer">
+				<div class="foo">
+				
+					<div class="footAdd">
+						<ul>         
+							<li><a href="#">Legal notice</a> |</li>
+							<li><a href="#">개인정보처리방침</a> |</li>
+							<li><a href="#">쿠키 정책</a> |</li>
+							<li><a href="#">위치정보사업 이용약관</a> |</li>
+							<li><a href="#">위치기반서비스 이용약관</a> |</li>
+							<li><a href="#">포르쉐 그룹 부정비리 제보 시스템</a> |</li>
+							<li><a href="#">Open Source Software Notice.</a></li>
+						</ul>
+						<address>포르쉐 고객센터 080-8100-911 &nbsp;&nbsp; © 2024 Porsche Korea Ltd. Legal notice</address>
+						<hr>
+						<p>＊ 표기된 연비는 표준 모드에 의한 것으로 도로상태, 운전방법, 차량적재, 정비상태 및 외기온도에 따라 실주행연비와 차이가 있습니다.</p>
+						<p>＊ 본 웹사이트에 기재된 내용은 사전에 예고 없이 변경될 수 있으므로 실제 차량과 다를 수 있습니다.</p>
+						<p>＊ 차량 이미지는 실제 모델과 다를 수 있으며, 국내 적용 사양 및 구성에 따라 차이가 있을 수 있습니다.</p>
+						<p>＊ 국내 출시 이전 차량의 경우 국내 공인 연비 정보 및 타이어 에너지소비효율 정보가 존재하지 않을 수 있습니다.</p>
+						<p>＊ 개별소비세 인하 관련 공지사항</p>
+						포르쉐 코리아는 정부의 일시적 개별소비세 인하 정책에 따라 적용 대상 차량에 대해 개별소비세 감면 혜택을 적용합니다.</p>
+						자세한 사항은 포르쉐 센터를 통하여 문의하시기 바랍니다.</p>
+						<p>＊ 본 페이지에 기재된 차량 가격은 권장소비자가격(MSRP)으로, 선택 사양, 취득세, 운송료 및 기타 핸들링에 대한 비용은 포함하지 않으며 실제 판매 가격과 상이할 수 있습니다.</p>
+						<p>＊기재된 수치는 통제된 상황에서 얻을 수 있는 최고 수치로서 환경 및 운전 상황에 따라 달라질 수 있습니다.</p>
+					</div>
+				</div>
+			</div>
+			<!-- footer 끝 -->
+		</div>
+		
+		<!-- wrapper 끝 -->
+	
+	
+	<!-- 
+<div class="PcomBackgroundVideo__video__a163e" style="--pcom-background-video-width-multiplier: 1;">
+			<div style="aspect-ratio: 1920 / 1080;" class="PcomVideo__root__98e43" data-test="pcom-video">
+				<div class="PcomVideoPlyr__nativeVideoWrapper__52e15">
+					<div class="plyr plyr--full-ui plyr--video plyr--html5 PcomVideoPlyr__disablePointer__52e15 plyr--playing plyr--hide-controls">
+						<div class="plyr__controls"></div>
+		
+						<div class="plyr__video-wrapper plyr__video-wrapper--fixed-ratio" style="aspect-ratio: 16 / 9;">
+							<video autoplay="" playsinline="true" class="PcomVideoPlyr__nativeVideo__52e15" aria-label="Several driving shots of a Taycan Turbo S driving through a city and tunnel at night" src="blob:https://www.porsche.com/ec06ab1d-c446-4103-8115-4496630377ee" loop="">
+							<source src="https://videos.porsche.com/id/tv3sehnv/hls.m3u8"></video>
+		
+							<div class="plyr__poster"></div>
+						</div>
+						<div class="plyr__captions" dir="auto"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</body>
+	-->
+	</body>
+</html>

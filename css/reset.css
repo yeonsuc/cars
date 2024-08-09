@@ -1,0 +1,10 @@
+﻿@charset html "utf-8";
+
+* { margin:0; padding:0; letter-spacing: -0.0275em;}
+li { list-style-type:none; }
+a { text-decoration:none; color:#000; }
+a:hover { text-decoration:none; }
+img, fieldset, input  { vertical-align:middle; border:none; }
+address, em { font-style:normal; }
+body { font-size:12px; font-family:"engFont", "koFont";  }
+

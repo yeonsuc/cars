@@ -1,0 +1,43 @@
+﻿@charset "UTF-8";
+
+.tog { position:absolute; right:0; top:10px;  }
+.tog.main_header .menu_tog_section {
+  top: 115px;
+}
+.tog.main_header.fixed .menu_tog_section {
+  top: 110px;
+}
+.tog.active .menu_tog_section { /* 오른쪽에서 메뉴가 떨어진 간격 */
+  right: 55px;
+}
+.tog .menu_tog_section {
+  position: fixed;
+  z-index: 9999;
+  right: -145px;
+  top: 110px;
+  transition-duration: 0.2s;
+  text-align: right;
+  line-height: 50px; /* 토글메뉴 행간 */
+}
+/* 
+.tog.white .menu_bt .ic_mm {
+  background-color: #fff;
+} */
+
+.tog.active .menu_bt .ic_mm.mm1 {
+  transform: translateY(6px) rotateZ(45deg);
+}
+.tog.active .menu_bt .ic_mm.mm2 {
+  transform: translateY(-6px) rotateZ(-45deg);
+}
+.tog .menu_tog_section .tog_menu li:hover {
+  text-decoration: underline;
+}
+
+.tog .menu_bt .ic_mm {
+  width: 22px;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 11px;
+  transition-duration: 0.2s;
+}
